@@ -16,7 +16,7 @@ import {
   ChevronDownIcon,
 } from "react-native-heroicons/outline";
 import { SearchBar } from "react-native-screens";
-import Categories from "../components/categories";
+import Categories from "../components/Categories";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
