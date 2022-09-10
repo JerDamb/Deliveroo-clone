@@ -17,6 +17,7 @@ import {
 } from "react-native-heroicons/outline";
 import { SearchBar } from "react-native-screens";
 import Categories from "../components/Categories";
+import FeaturedRow from "../components/FeaturedRow";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -65,6 +66,23 @@ const HomeScreen = () => {
         {/* categories */}
         <Categories />
         {/* featured rows */}
+        <FeaturedRow
+          id="123"
+          title="Featured"
+          description="Paid placements for our patners"
+        />
+        {/* tasty discount */}
+        <FeaturedRow
+          id="1234"
+          title="tasty discount"
+          description="Paid placements for our patners"
+        />
+        {/* offers near you */}
+        <FeaturedRow
+          id="12345"
+          title="offers near you"
+          description="Paid placements for our patners"
+        />
       </ScrollView>
     </SafeAreaView>
   );
